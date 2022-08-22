@@ -1,5 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+// import { useSelector, useDispatch } from 'react-redux';
+import styled from 'styled-components';
+
+const Excss = styled.button`
+  display: inline-flex;
+`;
 
 function App() {
   return (
@@ -17,6 +23,7 @@ function App() {
         >
           Learn React
         </a>
+        <Excss></Excss>
       </header>
     </div>
   );
